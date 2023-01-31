@@ -113,3 +113,5 @@ console.log(myFavFoods.join(' and '));
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+let allLists = myFavFoods.concat(animalArray);
+console.log(allLists);
