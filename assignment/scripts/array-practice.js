@@ -88,15 +88,11 @@ console.log(`The food items are now`, myFavFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
-myFavFoods.splice(1,1);
+myFavFoods.splice(1,1,'Cheese');
 console.log(`My food list: ${myFavFoods}`);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
-
-//I added one more food so that my list would be longer
-myFavFoods.push('Cheese'); 
-//console.log(myFavFoods);
 
 let orgList = myFavFoods.sort();
 //console.log(orgList);
